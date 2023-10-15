@@ -1,0 +1,61 @@
+:root {
+    --greenBg: #32cd32;
+    --purple: #800080;
+}
+
+.logo-bar {
+    background-color: var(--greenBg); /* Background color */
+    padding: 10px 0; /* Padding for spacing */
+    text-align: center; /* Center-align content */
+}
+
+/* Style for the logo image */
+.logo {
+    max-width: 40%; /* Maximum width relative to the page */
+    border-top: 10px solid var(--greenBg); /* Top border */
+    border-bottom: 5px solid var(--greenBg); /* Bottom border */
+}
+
+.logo-caption {
+    font-family: 'Young Serif', serif;
+    font-size: 20px; /* Set the font size to 20 pixels */
+    color: blue; /* Set the font color to blue */
+    text-align: center;
+}
+
+.top-bar {
+    background-color: var(--purple);
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+
+.top-bar row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-bar block {
+    width: 10%; /* Each block spans an equal portion (10% of the page width) */
+    background-color: var(--purple); /* Background color for the blocks */
+    height: 40px;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.top-bar block:hover {
+    width: 10%; /* Each block spans an equal portion (10% of the page width) */
+    background-color: blue; /* Background color for the blocks */
+    height: 40px;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Style for the clickable text elements */
+.top-bar a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px; /* Add spacing between elements */
+}

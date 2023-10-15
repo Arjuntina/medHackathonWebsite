@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nutrishare Test Website</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Young+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="logo-bar">
+      <img class="logo" src="Images/nutrishareLogo.png" alt="Nutrishare Logo">
+      <p class="logo-caption">Feeding Local Families for a Healthier Boston</p>
+    </div>
+    <div class="top-bar">
+      <row>
+	<block>
+	  <a class="top-bar-links" href="#">About Us</a>
+	</block>
+	<block>
+	  <a class="top-bar-links" href="eligibility.html">Eligibility</a>
+	</block>
+	<block>
+	  <a class="top-bar-links" href="#">Plan my meal service</a>
+	</block>
+	<block>
+	  <a class="top-bar-links" href="service.html">Serving the Boston Community</a>
+	</block>
+	<block>
+	  <a class="top-bar-links" href="phoneApp.html"> Using the app </a>
+	</block>
+      </row>
+    </div>
+    <header>
+      <h1 class="header-4">Check whether you are eligible to receive food from Nutrishare</h1>
+    </header>
+
+    <hr> <!-- Horizontal line -->
+    <div class="container">    <form>
+	<div class="form-row">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+	</div>
+
+	<div class="form-row">
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+	</div>
+
+	<div class="form-row">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+	</div>
+
+	<div class="form-row">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address">
+	</div>
+
+	<div class="form-row">
+          <label for="background">Socioeconomic Background:</label>
+          <input type="text" id="background" name="background">
+	</div>
+
+	<div class="form-row">
+          <label for="other">Other Information:</label>
+          <textarea id="other" name="other" rows="4" cols="50"></textarea>
+	</div>
+
+	<div class="form-row">
+          <input type="submit" value="Submit">
+	</div>
+
+      </form>
+    </div>
+  </body>
+</html>
